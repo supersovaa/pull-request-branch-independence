@@ -43,3 +43,6 @@ After creating the pull request, verify its base, head, and commit range.
 The pull request is independent only when merging its head into the base would not also make another unmerged pull request's head reachable from the base.
 
 When the created pull request is accidentally stacked, recreate it from the latest base with only its own changes.
+
+This skill owns pull request branch-history independence.
+Pull request scope, review criteria, implementation work, and provider-specific pull request creation mechanics remain with their surrounding workflows.
